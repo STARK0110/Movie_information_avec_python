@@ -1,5 +1,4 @@
 ```bash
-
 import imdb 
 
 ia = imdb.Cinemagoer()
@@ -26,5 +25,4 @@ print(f"Plot:{movie_info.get('plot outline','N/A')}")
 print(f"Runtime:{movie_info.get('runtimes',['N/A'])[0]} minutes")
 print(f"Country:{','.join(movie_info.get('country',[]))} ")
 print(f"Language: {','.join(movie_info.get('languages',[]))}")
-
 ```
